@@ -1,0 +1,68 @@
+<html>
+    <head>
+        
+        <style>
+            body{
+                color:rgb(120, 17, 106);
+                background-color:beige;
+                
+            }
+        </style>
+
+
+
+    </head>
+    <body>
+        <h1>Gayu's Coffee Shop</h1>
+        <i><h3>Enjoy with Gayu's coffee.....</h3></i>
+        
+        <div>
+            <div>
+                <b><h2>Menu:</h2></b>
+            </div>
+
+            <div>
+                <h3>Cold Coffee</h3>
+                <ul>
+                    <li onclick="Ordered()">Dark chocolate Cold coffee</li>
+                    <button onclick="Ordered()">Order</button>
+                    <li onclick="Ordered()">Cold Coffee with chocolate crush</li>
+                    <li onclick="Ordered()">White chocolate cold coffee</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Hot Coffee</h3>
+                <ul>
+                    <li onclick="Ordered()">Hot coffee with white cream</li>
+                    <li onclick="Ordered()">Hot coffee with Chocolate cream </li>
+                    <li onclick="Ordered()">Hot coffee with White & Dark chocolate crush</li>
+                    <li onclick="Ordered()">Traditional South Indian Coffee</li>
+                    
+                </ul>
+            </div>
+
+            <div>
+                <h3>Icecream</h3>
+                <ul>
+                <li onclick="Ordered()">Vanilla icecream</li>
+                <li onclick="Ordered()">Chocolate icecream</li>
+                <li onclick="Ordered()">Butter scotch icecream</li>
+                </ul>
+            </div>
+        </div>
+
+        <p><i>You can enjoy With Gayu's coffee</i></p>
+        <script>
+            function Ordered(){
+                alert("Ordered Successfully");
+            }
+            
+        </script>
+
+        
+
+
+
+    </body>
+</html>
